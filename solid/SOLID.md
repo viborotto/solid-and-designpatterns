@@ -16,7 +16,7 @@ Software is never dormant. It always keeps changing
 
 ### Single Responsability Principle(SRP)    
 
-- [Java Hands-on](link)
+- [Java Single Responsability - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/SRP-hands_on)
   
 "Every software component should have one and only one responsability"      
 OO: class, method, module of Java for example
@@ -184,7 +184,7 @@ public class StudentRepository {
 
 ### Open-Closed Principle(OCP) 
 
-- [Java Hands-on](link)
+- [Java Open-Closed - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/OCP-hands_on)
 - imagem 
 
 
@@ -214,7 +214,7 @@ Create a Interface to implements classes that has the same method and are use in
 
 ### Liskov Substitution Principle(LSP)
 
-- [Java Hands-on](link)
+- [Liskov Substitution - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/LSP-hands_on)
 
 > Objects should be replaceable with their subtypes without affecting the correctness of the program
 
@@ -246,7 +246,7 @@ Solutions:
 
 ### Interface Segregation Principle (ISP)
 
-- [Java Hands-on](link)
+- [Interface Segregation - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/ISP-hands_on)
 
 > No client should be forced to depend on methods it doesnt use
 
@@ -279,7 +279,7 @@ This principle relation with Single Responsability Principle
 
 ### Dependency Injection Principle (DIP)
 
-- [Java Hands-on](link)
+- [Dependency Inversion - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/DIP-hands_on)
 
 > High-level modules should not depend on low-level modules. Both should depend on abstractions.
 > Abstractions should not depend on details. Details should depend on abstractions.
