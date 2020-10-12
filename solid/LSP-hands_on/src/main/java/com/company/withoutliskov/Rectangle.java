@@ -1,6 +1,6 @@
-package com.company.liskov_1;
+package com.company.withoutliskov;
 
-public class Rectangle implements Shape {
+public class Rectangle {
 
 	private int width;
 	

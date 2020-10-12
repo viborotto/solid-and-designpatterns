@@ -1,24 +1,28 @@
 package com.company.liskov_1;
 
-public class Square extends Rectangle {
-	
-	public Square(int side) {
-		super(side, side);
-	}
-	
-	@Override
-	public void setWidth(int width) {
-		setSide(width);
-	}
+/**
+ * 	Square is a special type of rectangle
+ * 	before Override all methods of Rectangle, but only one is comum
+ * 	So we create an interface to put comum method between classes
+ */
+public class Square implements Shape {
 
-	@Override
-	public void setHeight(int height) {
-		setSide(height);
+	private int side;
+
+	public Square(int side) {
+		this.side = side;
 	}
 
 	public void setSide(int side) {
-		super.setWidth(side);
-		super.setHeight(side);
+		this.side = side;
 	}
 
+	public int getSide() {
+		return side;
+	}
+
+	@Override
+	public int computeArea() {
+		return side * side;
+	}
 }

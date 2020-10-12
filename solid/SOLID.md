@@ -188,7 +188,7 @@ public class StudentRepository {
 - imagem 
 
 
-Note: things constant in Base classe that extends, and extensions methods       
+> things constant in Base classe that extends, and extensions methods       
 
 "Every software component should be closed for modification, but open for extension"      
 
@@ -238,6 +238,7 @@ public class Ostrich extends Bird {
 }
 ```
 ->Incorrect in this case with LSP
+-> methods that dont use in derived object
 
 Solutions:
 1. Break the hierarchy of it fails the substitution test.
