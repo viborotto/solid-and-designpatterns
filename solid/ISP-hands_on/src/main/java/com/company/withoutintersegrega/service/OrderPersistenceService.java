@@ -1,8 +1,9 @@
-package com.company.intersegrega.service;
+package com.company.withoutintersegrega.service;
 
-import com.company.intersegrega.entity.Order;
+import com.company.withoutintersegrega.entity.Order;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class OrderPersistenceService implements PersistenceService<Order>{
@@ -28,5 +29,10 @@ public class OrderPersistenceService implements PersistenceService<Order>{
 		synchronized (ORDERS) {
 			return ORDERS.get(id);
 		}
+	}
+
+	@Override
+	public List<Order> findByName(String name) {
+		return null;
 	}
 }

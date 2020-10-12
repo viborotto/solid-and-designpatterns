@@ -1,4 +1,4 @@
-package com.company.intersegrega.service;
+package com.company.withoutintersegrega.service;
 
 import com.company.intersegrega.entity.Entity;
 
@@ -12,5 +12,7 @@ public interface PersistenceService<T extends Entity> {
 	public void delete(T entity);
 	
 	public T findById(Long id);
+
+	public List<T> findByName(String name);
 	
 }

@@ -250,6 +250,17 @@ Solutions:
 - [Interface Segregation - Hands-on](https://github.com/viborotto/solid-and-designpatterns/tree/main/solid/ISP-hands_on)
 
 > No client should be forced to depend on methods it doesnt use
+> Clients should not be forced to depend upon interfaces that they dont use
+
+- INTERFACE POLUTION (large interfaces, unrelated methods)
+  - Classes have empty methods
+  - Method implementations throw UnsupportedOperationException(or similar)
+  - Method implementations return null or default/dummy
+
+- Techniques To indentify Violations of ISP:    
+1. Fat Interfaces - so much methods in one interface    
+2. Interfaces with low cohesion   
+3. Empty method implementations  
 
 
 Exemple:
@@ -268,10 +279,7 @@ That interface implement a SimplePrinter that has only 2 methods
   3. implement only one interface
 
 
-- Techniques To indentify Violations of ISP:    
-1. Fat Interfaces - so much methods in one interface    
-2. Interfaces with low cohesion   
-3. Empty method implementations   
+ 
 
 This principle relation with Single Responsability Principle
 
