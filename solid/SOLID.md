@@ -14,7 +14,10 @@ Software is never dormant. It always keeps changing
 
 ## 5 Rules     
 
-### Single Responsability Principle(SRP)        
+### Single Responsability Principle(SRP)    
+
+- [Java Hands-on](link)
+  
 "Every software component should have one and only one responsability"      
 OO: class, method, module of Java for example
 
@@ -181,6 +184,12 @@ public class StudentRepository {
 
 ### Open-Closed Principle(OCP) 
 
+- [Java Hands-on](link)
+- imagem 
+
+
+Note: things constant in Base classe that extends, and extensions methods       
+
 "Every software component should be closed for modification, but open for extension"      
 
 Nintendo Wii Console, pode ter controles complementares, p.e volante(pplug and play). Extensoes.
@@ -204,6 +213,8 @@ Create a Interface to implements classes that has the same method and are use in
 
 
 ### Liskov Substitution Principle(LSP)
+
+- [Java Hands-on](link)
 
 > Objects should be replaceable with their subtypes without affecting the correctness of the program
 
@@ -234,6 +245,8 @@ Solutions:
 
 
 ### Interface Segregation Principle (ISP)
+
+- [Java Hands-on](link)
 
 > No client should be forced to depend on methods it doesnt use
 
@@ -266,5 +279,14 @@ This principle relation with Single Responsability Principle
 
 ### Dependency Injection Principle (DIP)
 
+- [Java Hands-on](link)
+
 > High-level modules should not depend on low-level modules. Both should depend on abstractions.
 > Abstractions should not depend on details. Details should depend on abstractions.
+
+
+
+
+## References
+
+- [Free Code SOLID](https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/solid-principles-explained-in-plain-english/amp/)    
